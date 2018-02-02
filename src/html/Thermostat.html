@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thermostat</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../js/interface.js"></script>
+    <script type="text/javascript" src="../js/Thermostat.js" ></script>
+    <link type="text/css" rel="stylesheet" href="../css/Thermostat.css">
+</head>
+<body>
+    <main>
+        <section id="outsideWeather">
+            <h2 id="outsideTemperature"></h2>
+        </section>
+        <section id ="thermostatControl">
+            <h1 id="thermostatTemperature"></h1>
+            <p>
+                <button id="increaseTemperature">+</button>
+                <button id="decreaseTemperature">-</button>
+                <button id="resetTemperature">Reset</button>
+                Current Mode: <span id="powerSavingStatus">Eco</span>
+                <button id="ecoMode">Eco Mode</button>
+                <button id="normalMode">Normal Mode</button>
+            </p>
+        </section>
+    </main>
+</body>
+</html>

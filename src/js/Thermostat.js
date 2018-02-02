@@ -6,7 +6,7 @@ const powerSavingModeMaximumTemperature = 25;
 const defaultMode = true;
 
 function Thermostat(){
-    this._mode = defaultMode;
+    this._mode = defaultMode;   //make more clear what mode is
     this._temperature = defaultTemperature;
 }
 
